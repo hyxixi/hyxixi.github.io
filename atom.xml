@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-07-21T08:50:23.273Z</updated>
+  <updated>2016-07-23T07:47:57.102Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,26 +16,93 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2016/07/21/hello-world/"/>
-    <id>http://yoursite.com/2016/07/21/hello-world/</id>
-    <published>2016-07-21T08:50:23.272Z</published>
-    <updated>2016-07-21T08:50:23.273Z</updated>
+    <title>Win10许可证即将到期解决办法</title>
+    <link href="http://yoursite.com/2016/07/23/Win10%E8%AE%B8%E5%8F%AF%E8%AF%81%E5%8D%B3%E5%B0%86%E5%88%B0%E6%9C%9F%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/"/>
+    <id>http://yoursite.com/2016/07/23/Win10许可证即将到期解决办法/</id>
+    <published>2016-07-23T06:23:16.581Z</published>
+    <updated>2016-07-23T07:47:57.102Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+    <content type="html"><![CDATA[<p>date: 2016-07-23 14:23:16</p>
+<h3 id="题记"><a href="#题记" class="headerlink" title="题记"></a>题记</h3><p>　　从昨天开始我的电脑一直在提示“Win10企业版许可证即将到期”，电脑提示我重新激活Win10系统，我在查找了一些资料后才明白什么情况。当初我装Win10的时候，用的是预览版的密钥，不是永久密钥。</p>
+<p>　　在摸索一番后，我的问题已经解决了，总结了两种方案，不过个人认为第2种方案比较方便一点。</p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><h5 id="Win10激活具体过期时间："><a href="#Win10激活具体过期时间：" class="headerlink" title="Win10激活具体过期时间："></a>Win10激活具体过期时间：</h5><p>　　直接按“Windows+R”打开“运行”窗口，输入“slmgr.vbs -xpr”并点击“确定”按钮。之后会弹出一个对话框，你可以看到你的Win10系统过期时间。</p>
+<h6 id="注：你可以先查看一下过期时间，在采用方案后，再次查看，验证问题是否解决。"><a href="#注：你可以先查看一下过期时间，在采用方案后，再次查看，验证问题是否解决。" class="headerlink" title="注：你可以先查看一下过期时间，在采用方案后，再次查看，验证问题是否解决。"></a>注：你可以先查看一下过期时间，在采用方案后，再次查看，验证问题是否解决。</h6><p><strong>方案一：更换密钥</strong></p>
+<p>　以管理员身份打开CMD命令行窗口,依次输入：</p>
+<p><pre><code>slmgr /ipk 新的密钥<br>slmgr /skms kms.xspace.in<br>slmgr /ato<br></code></pre></p>
+<p>　Win10企业版密钥：</p>
+<p>　　[Key]：VTNMT-2FMYP-QCY43-QR9VK-WTVCK</p>
+<p>　　[Key]：PBHCJ-Q2NYD-2PX34-T2TD6-233PK</p>
+<p>　　[Key]：NPPR9-FWDCX-D2C8J-H872K-2YT43</p>
+<p>　　[Key]：XGVPP-NMH47-7TTHJ-W3FW7-8HV2C</p>
+<p>　Win10专业版密钥：</p>
+<p>　　[Key]：6P99N-YF42M-TPGBG-9VMJP-YKHCF</p>
+<p>　　[Key]：NKJFK-GPHP7-G8C3J-P6JXR-HQRJR</p>
+<p>　　[Key]：VK7JG-NPHTM-C97JM-9MPGT-3V66T</p>
+<p>　　[Key]：W269N-WFGWX-YVC9B-4J6C9-T83GX</p>
+<p>　Win10家庭版密钥：</p>
+<p>　　[Key]：TX9XD-98N7V-6WMQ6-BX7FG-H8Q99</p>
+<p>　Win10教育版密钥：</p>
+<p>　　[Key]：YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY</p>
+<p>　　[Key]：NW6C2-QMPVW-D7KKK-3GKT6-VCFB2</p>
+<p>　Win10专业版N密钥：</p>
+<p>　　[Key]：2B87N-8KFHP-DKV6R-Y2C8J-PKCKT</p>
+<p>　　[Key]：MH37W-N47XK-V7XM9-C7227-GCQG9</p>
+<p>　Win10企业版N密钥：</p>
+<p>　　[Key]：WGGHN-J84D6-QYCPR-T7PJ7-X766F</p>
+<p>　　[Key]：DPH2V-TTNVB-4X9Q3-TJR4H-KHJW4</p>
+<p>　Win10教育版N密钥：</p>
+<p>　　[Key]：84NGF-MHBT6-FXBX8-QWJK7-DRR8H</p>
+<p>　　[Key]：2WH4N-8QGBV-H22JP-CT43Q-MDWWJ</p>
+<p>　Win10企业版S密钥：</p>
+<p>　　[Key]：FWN7H-PF93Q-4GGP8-M8RF3-MDWWW</p>
+<p>　Win10企业版LSTB密钥：</p>
+<p>　　[Key]：WNMTR-4C88C-JK8YV-HQ7T2-76DF9　　</p>
+<p>　Win10企业版LSTB N密钥：</p>
+<p>　　[Key]：2F77B-TNFGY-69QQF-B8YKP-D69TJ</p>
+<p>　Win10单语言版密钥：</p>
+<p>　　[Key]：BT79Q-G7N6G-PGBYW-4YWX6-6F4BT</p>
+<p><strong>方案二：激活工具</strong></p>
+<p>　　下载并运行“MicrKMS”激活工具，从其主界面中点击“激活Windows 10 ALL”。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;date: 2016-07-23 14:23:16&lt;/p&gt;
+&lt;h3 id=&quot;题记&quot;&gt;&lt;a href=&quot;#题记&quot; class=&quot;headerlink&quot; title=&quot;题记&quot;&gt;&lt;/a&gt;题记&lt;/h3&gt;&lt;p&gt;　　从昨天开始我的电脑一直在提示“Win10企业版许可证即将到期”，电脑提
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>地址分词快速分辨</title>
+    <link href="http://yoursite.com/2016/07/23/%E5%9C%B0%E5%9D%80%E5%88%86%E8%AF%8D%E5%BF%AB%E9%80%9F%E5%88%86%E8%BE%A8/"/>
+    <id>http://yoursite.com/2016/07/23/地址分词快速分辨/</id>
+    <published>2016-07-23T04:16:24.299Z</published>
+    <updated>2016-07-23T06:19:20.949Z</updated>
+    
+    <content type="html"><![CDATA[<p>date: 2016-07-23 12:16:24</p>
+<p>　　最近做了一些分辨地址分词的工作，总结了一些小技巧，可以快速提高大家的工作速度。</p>
+<h5 id="1-对地址分词进行筛选"><a href="#1-对地址分词进行筛选" class="headerlink" title="1.对地址分词进行筛选"></a>1.对地址分词进行筛选</h5><p>　　做地址分词工作一般是先判断对错，再判断错误类型，判断对错时要对地址分词进行筛选，判断错误类型时要对任意一列的颜色进行筛选（我采用标红标错）。</p>
+<h5 id="2-快速分辨地址中有没有括号"><a href="#2-快速分辨地址中有没有括号" class="headerlink" title="2.快速分辨地址中有没有括号"></a>2.快速分辨地址中有没有括号</h5><p>　　无论地址中有没有括号，地址分词中都不该有括号出现，这种情况不用想太多，直接标错；若括号中的地址丢失，也标错。</p>
+<h5 id="3-对比地址与地址分词的尾部"><a href="#3-对比地址与地址分词的尾部" class="headerlink" title="3.对比地址与地址分词的尾部"></a>3.对比地址与地址分词的尾部</h5><p>　　尾部丢失是分词时比较常出现的错误了，一般是在地址尾部，特别是，尾部有顿号链接的多个TAB。</p>
+<h5 id="4-分辨地址中有没有“-组”或者“-楼”"><a href="#4-分辨地址中有没有“-组”或者“-楼”" class="headerlink" title="4.分辨地址中有没有“%组”或者“%楼”"></a>4.分辨地址中有没有“%组”或者“%楼”</h5><p>　　在地址分词中经常把“%组”标为TAB，“%楼”标成BUL。</p>
+<h5 id="5-分辨地址中有没有“-超市”"><a href="#5-分辨地址中有没有“-超市”" class="headerlink" title="5.分辨地址中有没有“%超市”"></a>5.分辨地址中有没有“%超市”</h5><p>　　在地址分词中经常把“%超市”标为CIT。</p>
+<h5 id="6-分辨地址分词中有没有CRS"><a href="#6-分辨地址分词中有没有CRS" class="headerlink" title="6.分辨地址分词中有没有CRS"></a>6.分辨地址分词中有没有<em>CRS</em></h5><p>　　大多数CRS前没有“交叉口”都是错的，当然这是指分词对了，出现丢失字段现象；如果地址中没有“交叉口”三个字，也没有“%路%路”，一般就是分词分错了。</p>
+<h5 id="7-分辨地址分词中有没有COM"><a href="#7-分辨地址分词中有没有COM" class="headerlink" title="7.分辨地址分词中有没有COM"></a>7.分辨地址分词中有没有<em>COM</em></h5><p>　　地址分词的稳定结构是PNA+TAB，如果是COM+TAB,直接标错；有时候，COM前面只有2个字，后面跟着的PNA是<strong>镇</strong>开头,也是错的；而COM后面没跟镇，地址中却是“%镇”，则属于分词丢失错误。</p>
+<h5 id="8-分辨地址分词中有没有CAT"><a href="#8-分辨地址分词中有没有CAT" class="headerlink" title="8.分辨地址分词中有没有CAT"></a>8.分辨地址分词中有没有<em>CAT</em></h5><p>　　如果CAT前只分出一个字，例如“镇”“村”，都是错的；如果是COM+CAT的结构，“苏巷<strong>镇</strong>/COM 农贸市场/CAT”是对的，“苏巷/COM 农贸市场/CAT”是错的，应该是“苏巷农贸市场/PNA”。</p>
+<h5 id="9-分辨地址分词中有没有太长字段"><a href="#9-分辨地址分词中有没有太长字段" class="headerlink" title="9.分辨地址分词中有没有太长字段"></a>9.分辨地址分词中有没有太长字段</h5><p>　　偶尔COM+PNA会一起被分为PNA，PNA+PNA合在一起分成一个PNA，也是不可以的。</p>
+<h5 id="10-分辨地址分词中有没有STR"><a href="#10-分辨地址分词中有没有STR" class="headerlink" title="10.分辨地址分词中有没有STR"></a>10.分辨地址分词中有没有<em>STR</em></h5><p>　　如果STR前面只有2个字，后面跟着的地址分词是<strong>路</strong>开头，那么分词一般是错的，如果不是，STR不一定就错的，STR+TAB是稳定结构，但是偶尔后面会跟PNA。</p>
+<h5 id="11-分辨地址分词中有没有FIX"><a href="#11-分辨地址分词中有没有FIX" class="headerlink" title="11.分辨地址分词中有没有FIX"></a>11.分辨地址分词中有没有<em>FIX</em></h5><p>　　FIX在分词时，可能出现这样的情况：“南北楼/PNA”分成“南/FIX 北/BUL”。</p>
+<h3 id="尾记"><a href="#尾记" class="headerlink" title="尾记"></a>尾记</h3><p>　　这些是比较容易辨别的错误，如果这些错误都没有，还是要对地址与地址分词作最基本的核对，当然，如果你看此文不太懂，请先看“地名地址分词基础规则.docx”。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;date: 2016-07-23 12:16:24&lt;/p&gt;
+&lt;p&gt;　　最近做了一些分辨地址分词的工作，总结了一些小技巧，可以快速提高大家的工作速度。&lt;/p&gt;
+&lt;h5 id=&quot;1-对地址分词进行筛选&quot;&gt;&lt;a href=&quot;#1-对地址分词进行筛选&quot; class=&quot;headerl
     
     </summary>
     
