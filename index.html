@@ -61,6 +61,114 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-修改注册表" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/08/01/修改注册表/" class="article-date">
+  <time datetime="2016-08-01T00:50:33.743Z" itemprop="datePublished">2016-08-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/08/01/修改注册表/">修改注册表</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>date: 2016-07-31 20:50:33</p>
+<hr>
+<p>首先，在“C:\Windows”目录下找到regedit.exe程序，运行。</p>
+<p>1、单击“开始”，最上方是你的用户名，例如我的是“mf”。</p>
+<p>2、在注册表中，定位到任意你想要修改权限的项，右键单击它，选择权限。</p>
+<p>3、选择“高级”。</p>
+<p><img src="http://a3.qpic.cn/psb?/V136Ncz646MPKG/yNEokgH4c3VzegQ1jcZ.oIiwv5cA6g1zmqNWpgoTpH8!/b/dI8AAAAAAAAA&amp;bo=swFGArMBRgIDACU!&amp;rf=viewer_4" alt="1"></p>
+<p>4、看所有者一栏，如果是你计算机名加用户名，就直接做第8步，否则单击“更改”。</p>
+<p><img src="http://a3.qpic.cn/psb?/V136Ncz646MPKG/TwQYphZBm4Ga14VFXGUVVkrXYFniw11nD8NvccuqsFg!/b/dA0BAAAAAAAA&amp;bo=sgEgAbIBIAEDByI!&amp;rf=viewer_4" alt="2"></p>
+<p>5、单击“高级”，下一步。</p>
+<p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/GiKHfrt8Eg66Hk3JxjyFpVq72L917UPK7C1zFjAGwg8!/b/dG8BAAAAAAAA&amp;bo=IgJdASICXQEDACU!&amp;rf=viewer_4" alt="3"></p>
+<p>6、在“查找位置”里输入你的计算机名，单击“立即查找”，找到你的用户名，选中，单击“确定”。</p>
+<p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/x.bupNKnshkbTbTgzh*wkaaIseGd9tvleTNHrOC4cCA!/b/dG8BAAAAAAAA&amp;bo=ZgLYAmYC2AIDACU!&amp;rf=viewer_4" alt="4"></p>
+<p>7、回到“高级安全设置”窗口，如果有<strong>替换子容器和对象的所有者</strong>的复选框，勾上。</p>
+<p>8、回到最初的权限窗口，选择用户名Administrators，设置权限，如图，单击“确定”。</p>
+<p><img src="http://a3.qpic.cn/psb?/V136Ncz646MPKG/ZP1Gfa0ZT0JPHvIRKKvC5W8hNAZvEIrCXa3FVDG31uU!/b/dNoAAAAAAAAA&amp;bo=swFGArMBRgIDByI!&amp;rf=viewer_4" alt="5"></p>
+<p>9、之后，你就可以修改注册表了。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/08/01/修改注册表/" data-id="cirbszg42000240v81izn2r5h" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Axwoman6.0安装（.NET 4.0配置）" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/08/01/Axwoman6.0安装（.NET 4.0配置）/" class="article-date">
+  <time datetime="2016-08-01T00:49:54.466Z" itemprop="datePublished">2016-08-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/08/01/Axwoman6.0安装（.NET 4.0配置）/">Axwoman6.0安装（.NET 4.0配置）</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>date: 2016-07-31 18:49:54</p>
+<h3 id="题记"><a href="#题记" class="headerlink" title="题记"></a>题记</h3><p>axwoman必须基于GIS平台，最新版本为axwoman6.0，基于ArcGIS10，另外axwoman1.0基于ArcView3.x，axwoman2.0是JAVA版，axwoman3.0也是基于ArcView，axwoman4.0基于ArcGIS9.2, axwoman5.0基于ArcGIS9.2。这里只谈Axwoman6.0的安装。</p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p> 　　<strong>首先</strong>，安装Axwoman6.0之前将Microsoft .net framework version 4.0和ArcGIS 10.0安装好。如果有人需要安装包，建议直接加一个空间句法的交流群。</p>
+<p>　　这里简要说一下<strong>arcgis</strong>的安装步骤：</p>
+<ul>
+<li>先安装许可管理器（LicenseManager），不要改任何东西，安好会弹出一个窗口，点击“停止”，关闭许可管理器。</li>
+<li>再安装Arcgis Desktop（包括汉化包），不要改任何东西，关闭ArcGIS Administrator窗口，暂不设置。</li>
+<li>接着替换service.txt文件，打开KeyGen.exe，设置hostID（自己的计算机名）和Version（Arcgis版本），点击ALL，将所有内容复制下来，替换原来的service.txt文件内容，再用新的service.txt文件覆盖“C:\Program Files (x86)\ArcGIS\License10.0\bin”目录下的service.txt文件。</li>
+<li>最后，打开License Server Administrator窗口，点击“运行”，再打开ArcGIS Administrator窗口，选择“ArcInfo（浮动使用）”，许可管理器输入“localhost”，点击“确定”以后，可以看到左边的树结构中出现自己的计算机名，这样就安装结束了。</li>
+</ul>
+<p>　　安装<strong>Axwoman6.0</strong>，只把Just me改为Everyone就好，然后打开Arcmap的扩展模块，可以看到AxialGen2.0和Axwoman6.0。这里注意，如果你在安装时改动了arcgis或者Axwoman的地址，可能就看不到这两项扩展功能。如果都没问题，就是.NET版本不对了。</p>
+<p>　　<strong>Microsoft .net framework version 4.0</strong>的安装也很简单，也是一路next就好。但是这个程序是电脑程序默认安装的，所以在下载安装包之前，先检查电脑的.NET的版本吧。这里有几种方法，是我试过的：</p>
+<ol>
+<li>在文件管理器的地址栏输入“C:\Windows\Microsoft.NET\Framework”或者“C:\Windows\Microsoft.NET\Framework64”，最大版本就是电脑现有的版本。</li>
+<li>打开系统自带的<strong>IE</strong>浏览器，在地址栏输入“javascript:alert(navigator.userAgent);”，在弹出窗口处标明了系统安装的 .NET Framework 版本信息。</li>
+<li>在“C:\Windows”目录下找到regedit.exe程序，找到“HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client”的Version一栏，就是电脑现有的.NET Framework版本。</li>
+<li>打开控制面板中的“程序与功能”，在左上角的“启动或关闭Windows功能”中，有 .NET Framework的版本信息。</li>
+</ol>
+<p>　　一般Win7默认安装 .NET Framework 3.5，Win10默认安装 .NET Framework 4.6。版本比4.0低，直接安装4.0就行；版本比4.0高，在“程序与功能”左上角的“启动或关闭Windows功能”中关闭高的版本，在再安装4.0 。如果安装不了，可以试试修改注册表信息。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/08/01/Axwoman6.0安装（.NET 4.0配置）/" data-id="cirbszg2m000040v81ipr7lsk" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-办理手机卡和手机套餐注意事项" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2016/07/23/办理手机卡和手机套餐注意事项/" class="article-date">
@@ -97,7 +205,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/23/办理手机卡和手机套餐注意事项/" data-id="ciqyzzuj70001c4v8lizwo0ow" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/07/23/办理手机卡和手机套餐注意事项/" data-id="cirbszg4i000340v861r5bmjw" class="article-share-link">Share</a>
       
       
     </footer>
@@ -131,7 +239,7 @@
       
         <p>date: 2016-07-23 14:23:16</p>
 <h3 id="题记"><a href="#题记" class="headerlink" title="题记"></a>题记</h3><p>　　从昨天开始我的电脑一直在提示“Win10企业版许可证即将到期”，电脑提示我重新激活Win10系统，我在查找了一些资料后才明白什么情况。当初我装Win10的时候，用的是预览版的密钥，不是永久密钥。</p>
-<p>　　在摸索一番后，我的问题已经解决了，总结了两种方案，不过个人认为第2种方案比较方便一点。</p>
+<p>　　在摸索一番后，我的问题已经解决了，总结了两种方案，不过个人认为第2种方案比较方便一点，因为你可能试了所有的密钥都不行。</p>
 <h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><h5 id="Win10激活具体过期时间："><a href="#Win10激活具体过期时间：" class="headerlink" title="Win10激活具体过期时间："></a>Win10激活具体过期时间：</h5><p>　　直接按“Windows+R”打开“运行”窗口，输入“slmgr.vbs -xpr”并点击“确定”按钮。之后会弹出一个对话框，你可以看到你的Win10系统过期时间。</p>
 <h6 id="注：你可以先查看一下过期时间，在采用方案后，再次查看，验证问题是否解决。"><a href="#注：你可以先查看一下过期时间，在采用方案后，再次查看，验证问题是否解决。" class="headerlink" title="注：你可以先查看一下过期时间，在采用方案后，再次查看，验证问题是否解决。"></a>注：你可以先查看一下过期时间，在采用方案后，再次查看，验证问题是否解决。</h6><p><strong>方案一：更换密钥</strong></p>
 <p>　以管理员身份打开CMD命令行窗口,依次输入：</p>
@@ -174,7 +282,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/23/Win10许可证即将到期解决办法/" data-id="ciqyzzuiz0000c4v8mevtjb6s" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/07/23/Win10许可证即将到期解决办法/" data-id="cirbszg2u000140v8zputx90r" class="article-share-link">Share</a>
       
       
     </footer>
@@ -224,7 +332,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/23/地址分词快速分辨/" data-id="ciqyzzujb0002c4v8lyrf8ug5" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/07/23/地址分词快速分辨/" data-id="cirbszg4w000440v8viv862t2" class="article-share-link">Share</a>
       
       
     </footer>
@@ -251,7 +359,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">八月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a></li></ul>
     </div>
   </div>
 
@@ -262,6 +370,14 @@
     <h3 class="widget-title">最新文章</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2016/08/01/修改注册表/">修改注册表</a>
+          </li>
+        
+          <li>
+            <a href="/2016/08/01/Axwoman6.0安装（.NET 4.0配置）/">Axwoman6.0安装（.NET 4.0配置）</a>
+          </li>
         
           <li>
             <a href="/2016/07/23/办理手机卡和手机套餐注意事项/">办理手机卡和手机套餐注意事项</a>
