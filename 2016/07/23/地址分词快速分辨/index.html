@@ -1,225 +1,31 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  
-  <title>地址分词快速分辨 | hyxixi</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="date: 2016-07-23 12:16:24
-　　最近做了一些分辨地址分词的工作，总结了一些小技巧，可以快速提高大家的工作速度。
-1.对地址分词进行筛选　　做地址分词工作一般是先判断对错，再判断错误类型，判断对错时要对地址分词进行筛选，判断错误类型时要对任意一列的颜色进行筛选（我采用标红标错）。
-2.快速分辨地址中有没有括号　　无论地址中有没有括号，地址分词中都不该有括号出现，这种情况不用想">
-<meta property="og:type" content="article">
-<meta property="og:title" content="地址分词快速分辨">
-<meta property="og:url" content="http://yoursite.com/2016/07/23/地址分词快速分辨/index.html">
-<meta property="og:site_name" content="hyxixi">
-<meta property="og:description" content="date: 2016-07-23 12:16:24
-　　最近做了一些分辨地址分词的工作，总结了一些小技巧，可以快速提高大家的工作速度。
-1.对地址分词进行筛选　　做地址分词工作一般是先判断对错，再判断错误类型，判断对错时要对地址分词进行筛选，判断错误类型时要对任意一列的颜色进行筛选（我采用标红标错）。
-2.快速分辨地址中有没有括号　　无论地址中有没有括号，地址分词中都不该有括号出现，这种情况不用想">
-<meta property="og:updated_time" content="2016-07-23T09:16:42.602Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="地址分词快速分辨">
-<meta name="twitter:description" content="date: 2016-07-23 12:16:24
-　　最近做了一些分辨地址分词的工作，总结了一些小技巧，可以快速提高大家的工作速度。
-1.对地址分词进行筛选　　做地址分词工作一般是先判断对错，再判断错误类型，判断对错时要对地址分词进行筛选，判断错误类型时要对任意一列的颜色进行筛选（我采用标红标错）。
-2.快速分辨地址中有没有括号　　无论地址中有没有括号，地址分词中都不该有括号出现，这种情况不用想">
-  
-    <link rel="alternate" href="/atom.xml" title="hyxixi" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  
-    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  
+extends partial/base
 
-</head>
+include partial/post-meta
 
-<body>
-  <div id="container">
-    <div id="wrap">
-      <header id="header">
-  <div id="banner"></div>
-  <div id="header-outer" class="outer">
-    <div id="header-title" class="inner">
-      <h1 id="logo-wrap">
-        <a href="/" id="logo">hyxixi</a>
-      </h1>
-      
-    </div>
-    <div id="header-inner" class="inner">
-      <nav id="main-nav">
-        <a id="main-nav-toggle" class="nav-icon"></a>
-        
-          <a class="main-nav-link" href="/">Home</a>
-        
-          <a class="main-nav-link" href="/archives">Archives</a>
-        
-      </nav>
-      <nav id="sub-nav">
-        
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
-        
-        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
-      </nav>
-      <div id="search-form-wrap">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-      </div>
-    </div>
-  </div>
-</header>
-      <div class="outer">
-        <section id="main"><article id="post-地址分词快速分辨" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2016/07/23/地址分词快速分辨/" class="article-date">
-  <time datetime="2016-07-23T04:16:24.299Z" itemprop="datePublished">2016-07-23</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      地址分词快速分辨
-    </h1>
-  
+block header
+    header.header-section
+        .intro-header.no-img
+            .container
+                .row
+                    .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+                        .post-heading
+                            h1= page.title
+                            if page.subtitle
+                                h2.post-subheading= page.subtitle
+                            +post_meta(page.date, page.tags)
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>date: 2016-07-23 12:16:24</p>
-<p>　　最近做了一些分辨地址分词的工作，总结了一些小技巧，可以快速提高大家的工作速度。</p>
-<h5 id="1-对地址分词进行筛选"><a href="#1-对地址分词进行筛选" class="headerlink" title="1.对地址分词进行筛选"></a>1.对地址分词进行筛选</h5><p>　　做地址分词工作一般是先判断对错，再判断错误类型，判断对错时要对地址分词进行筛选，判断错误类型时要对任意一列的颜色进行筛选（我采用标红标错）。</p>
-<h5 id="2-快速分辨地址中有没有括号"><a href="#2-快速分辨地址中有没有括号" class="headerlink" title="2.快速分辨地址中有没有括号"></a>2.快速分辨地址中有没有括号</h5><p>　　无论地址中有没有括号，地址分词中都不该有括号出现，这种情况不用想太多，直接标错；若括号中的地址丢失，也标错。</p>
-<h5 id="3-对比地址与地址分词的尾部"><a href="#3-对比地址与地址分词的尾部" class="headerlink" title="3.对比地址与地址分词的尾部"></a>3.对比地址与地址分词的尾部</h5><p>　　尾部丢失是分词时比较常出现的错误了，一般是在地址尾部，特别是，尾部有顿号链接的多个TAB。</p>
-<h5 id="4-分辨地址中有没有“-组”或者“-楼”"><a href="#4-分辨地址中有没有“-组”或者“-楼”" class="headerlink" title="4.分辨地址中有没有“%组”或者“%楼”"></a>4.分辨地址中有没有“%组”或者“%楼”</h5><p>　　在地址分词中经常把“%组”标为TAB，“%楼”标成BUL。</p>
-<h5 id="5-分辨地址中有没有“-超市”"><a href="#5-分辨地址中有没有“-超市”" class="headerlink" title="5.分辨地址中有没有“%超市”"></a>5.分辨地址中有没有“%超市”</h5><p>　　在地址分词中经常把“%超市”标为CIT。</p>
-<h5 id="6-分辨地址分词中有没有CRS"><a href="#6-分辨地址分词中有没有CRS" class="headerlink" title="6.分辨地址分词中有没有CRS"></a>6.分辨地址分词中有没有<em>CRS</em></h5><p>　　大多数CRS前没有“交叉口”都是错的，当然这是指分词对了，出现丢失字段现象；如果地址中没有“交叉口”三个字，也没有“%路%路”，一般就是分词分错了。</p>
-<h5 id="7-分辨地址分词中有没有COM"><a href="#7-分辨地址分词中有没有COM" class="headerlink" title="7.分辨地址分词中有没有COM"></a>7.分辨地址分词中有没有<em>COM</em></h5><p>　　地址分词的稳定结构是PNA+TAB，如果是COM+TAB,直接标错；有时候，COM前面只有2个字，后面跟着的PNA是<strong>镇</strong>开头,也是错的；而COM后面没跟镇，地址中却是“%镇”，则属于分词丢失错误。</p>
-<h5 id="8-分辨地址分词中有没有CAT"><a href="#8-分辨地址分词中有没有CAT" class="headerlink" title="8.分辨地址分词中有没有CAT"></a>8.分辨地址分词中有没有<em>CAT</em></h5><p>　　如果CAT前只分出一个字，例如“镇”“村”，都是错的；如果是COM+CAT的结构，“苏巷<strong>镇</strong>/COM 农贸市场/CAT”是对的，“苏巷/COM 农贸市场/CAT”是错的，应该是“苏巷农贸市场/PNA”。</p>
-<h5 id="9-分辨地址分词中有没有太长字段"><a href="#9-分辨地址分词中有没有太长字段" class="headerlink" title="9.分辨地址分词中有没有太长字段"></a>9.分辨地址分词中有没有太长字段</h5><p>　　偶尔COM+PNA会一起被分为PNA，PNA+PNA合在一起分成一个PNA，也是不可以的。</p>
-<h5 id="10-分辨地址分词中有没有STR"><a href="#10-分辨地址分词中有没有STR" class="headerlink" title="10.分辨地址分词中有没有STR"></a>10.分辨地址分词中有没有<em>STR</em></h5><p>　　如果STR前面只有2个字，后面跟着的地址分词是<strong>路</strong>开头，那么分词一般是错的，如果不是，STR不一定就错的，STR+TAB是稳定结构，但是偶尔后面会跟PNA。</p>
-<h5 id="11-分辨地址分词中有没有FIX"><a href="#11-分辨地址分词中有没有FIX" class="headerlink" title="11.分辨地址分词中有没有FIX"></a>11.分辨地址分词中有没有<em>FIX</em></h5><p>　　FIX在分词时，可能出现这样的情况：“南北楼/PNA”分成“南/FIX 北/BUL”。</p>
-<h3 id="尾记"><a href="#尾记" class="headerlink" title="尾记"></a>尾记</h3><p>　　这些是比较容易辨别的错误，如果这些错误都没有，还是要对地址与地址分词作最基本的核对，当然，如果你看此文不太懂，请先看“地名地址分词基础规则.docx”。</p>
+block content
+    .container
+        .row
+            .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
+                article(role="main", class="blog-post")
+                    != page.content
+                ul.pager.blog-pager
+                    if page.prev
+                        li.previous
+                            a(href=url_for(page.prev.path), data-toggle="tooltip", data-placement="top", title=page.prev.title)= __('prev_post')
+                    if page.next
+                        li.next
+                            a(href=url_for(page.next.path), data-toggle="tooltip", data-placement="top", title=page.next.title)= __('next_post')
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/07/23/地址分词快速分辨/" data-id="cirbtrh0w0004i4v8fj3c9wp4" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2016/07/23/Win10许可证即将到期解决办法/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Win10许可证即将到期解决办法
-        
-      </div>
-    </a>
-  
-  
-</nav>
-
-  
-</article>
-
-</section>
-        
-          <aside id="sidebar">
-  
-    
-
-  
-    
-
-  
-    
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">归档</h3>
-    <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">八月 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">七月 2016</a></li></ul>
-    </div>
-  </div>
-
-
-  
-    
-  <div class="widget-wrap">
-    <h3 class="widget-title">最新文章</h3>
-    <div class="widget">
-      <ul>
-        
-          <li>
-            <a href="/2016/08/01/修改注册表/">修改注册表</a>
-          </li>
-        
-          <li>
-            <a href="/2016/08/01/Axwoman6.0安装（.NET 4.0配置）/">Axwoman6.0安装（.NET 4.0配置）</a>
-          </li>
-        
-          <li>
-            <a href="/2016/07/23/办理手机卡和手机套餐注意事项/">办理手机卡和手机套餐注意事项</a>
-          </li>
-        
-          <li>
-            <a href="/2016/07/23/Win10许可证即将到期解决办法/">Win10许可证即将到期解决办法</a>
-          </li>
-        
-          <li>
-            <a href="/2016/07/23/地址分词快速分辨/">地址分词快速分辨</a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-  
-</aside>
-        
-      </div>
-      <footer id="footer">
-  
-  <div class="outer">
-    <div id="footer-info" class="inner">
-      &copy; 2016 hyxixi<br>
-      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-    </div>
-  </div>
-</footer>
-    </div>
-    <nav id="mobile-nav">
-  
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-</nav>
-    
-
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  <script src="/fancybox/jquery.fancybox.pack.js"></script>
-
-
-<script src="/js/script.js"></script>
-
-  </div>
-</body>
-</html>
+                include partial/comment
