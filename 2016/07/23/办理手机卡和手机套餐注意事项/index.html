@@ -1,31 +1,341 @@
-extends partial/base
+<!DOCTYPE html>
+<html lang="en">
 
-include partial/post-meta
+<!-- Head tag -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="null">
+    <meta name="keyword"  content="undefined">
+    <link rel="shortcut icon" href="/img/coffee.png">
 
-block header
-    header.header-section
-        .intro-header.no-img
-            .container
-                .row
-                    .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
-                        .post-heading
-                            h1= page.title
-                            if page.subtitle
-                                h2.post-subheading= page.subtitle
-                            +post_meta(page.date, page.tags)
+    <title>
+        
+          办理手机卡和手机套餐注意事项｜undefined
+        
+    </title>
 
-block content
-    .container
-        .row
-            .col-lg-8.col-lg-offset-2.col-md-10.col-md-offset-1
-                article(role="main", class="blog-post")
-                    != page.content
-                ul.pager.blog-pager
-                    if page.prev
-                        li.previous
-                            a(href=url_for(page.prev.path), data-toggle="tooltip", data-placement="top", title=page.prev.title)= __('prev_post')
-                    if page.next
-                        li.next
-                            a(href=url_for(page.next.path), data-toggle="tooltip", data-placement="top", title=page.next.title)= __('next_post')
+    <link rel="canonical" href="http://yoursite.com/2016/07/23/办理手机卡和手机套餐注意事项/">
 
-                include partial/comment
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/blog-style.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ga & ba script hoook -->
+    <script></script>
+</head>
+
+<style>
+    .intro-header{
+        background-image:url(
+        'undefined'
+        )
+    }
+</style>
+<!-- hack iOS CSS :active style -->
+<body ontouchstart="">
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top " data-ispost = "true" data-istags="false
+" data-ishome = "false" >
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <span class="brand-logo">
+                    hyxixi
+                </span>
+                's Blog
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <!-- Known Issue, found by Hux:
+            <nav>'s height woule be hold on by its content.
+            so, when navbar scale out, the <nav> will cover tags.
+            also mask any touch event of tags, unfortunately.
+        -->
+        <!-- /.navbar-collapse -->
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">Home</a>
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</nav>
+<script>
+    // Drop Bootstarp low-performance Navbar
+    // Use customize navbar with high-quality material design animation
+    // in high-perf jank-free CSS3 implementation
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        // CLOSE
+            $navbar.className = " ";
+            // wait until animation end.
+            setTimeout(function(){
+                // prevent frequently toggle
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        // OPEN
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+    <!-- Main Content -->
+    
+<!-- Image to hack wechat -->
+<!--only post-->
+<img class="wechat-title-img" src="undefined">
+
+<!-- Post Header -->
+<!-- only post bg-->
+<style type="text/css">
+    header.intro-header{
+        background-image: url('undefined')
+    }
+</style>
+
+<header class="intro-header" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+                <div class="post-heading">
+                    <h1>办理手机卡和手机套餐注意事项</h1>
+                    
+                    <span class="meta">
+                         作者 hyxixi
+                         <span>
+                          日期 2016-07-23
+                         </span>
+                    </span>
+                    <div class="tags text-center">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="post-title-haojen">
+        <span>
+            办理手机卡和手机套餐注意事项
+        </span>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+                <!-- Post Container -->
+            <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
+
+                <p>date: 2016-07-23 16:12:30</p>
+<h3 id="题记"><a href="#题记" class="headerlink" title="题记"></a>题记</h3><p>现在，大多数学生都在初中甚至更早的时候就有了私人手机，但有些学生是高考后才买，我就是，当时的盲目购买，让我之后的2年后悔不已。如今，对于办理手机卡和手机套餐，我终于有了一个比较清晰的认识，写下此文，希望需要的人能看到。</p>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><p>1.如果你像我一样，高考完准备买手机，建议你最好到学校再买，开学季各大高校的营业厅，推出很多优惠的校园套餐，现在，联通推出校内流量包10元1.5G，但限3G用户，还有其他限制，不清楚。</p>
+<p>2.如果你在校办卡，当地营业厅是不支持异地销卡的，你可以打电话给客服，让客服帮你停机，90天后自动销号。</p>
+<p>3.无论是电话在线办理业务，还是当地营业厅办理业务，均在48h内的某一时刻生效，一旦生效，不能取消，只能在下个月正式生效后再处理。</p>
+<p>4.当地营业厅办理业务必须要有效身份证，过期身份证不能办理业务，如果对方没发现，那么恭喜你，蒙混过关，否则，你只能电话办理业务。</p>
+<p>5.网速与你的手机配置有直接关系，如果你是4G的卡，2G的手机，你的手机网速就是2G，同样，你是4G的手机，2G的卡，你的手机网速最快就是4G。</p>
+<p>6.如果你是学生，建议你办理校园手机卡，校园手机卡在校内非常优惠，偶尔出省，可以订购全国流量，如果你担心网速慢，可以卖一个4G手机。</p>
+<p>7.2G用户、3G用户可以转4G用户，4G用户不能转回3G用户，遇到这种情况，你只能销卡了。</p>
+<p>8.买手机的时候都要冲100元话费，销卡的话必须满3个月，100元的话费用完，而且没有任何还未正式生效的业务，没有每月返现的业务，才能销卡。</p>
+
+
+                <hr>
+
+                
+
+                <ul class="pager">
+                    
+                        <li class="previous">
+                            <a href="/2016/08/01/Axwoman6.0安装（.NET 4.0配置）/" data-toggle="tooltip" data-placement="top" title="Axwoman6.0安装（.NET 4.0配置）">&larr; Previous Post</a>
+                        </li>
+                    
+                    
+                        <li class="next">
+                            <a href="/2016/07/23/Win10许可证即将到期解决办法/" data-toggle="tooltip" data-placement="top" title="Win10许可证即将到期解决办法">Next Post &rarr;</a>
+                        </li>
+                    
+                </ul>
+
+                
+
+                
+
+            </div>
+
+            <div class="hidden-xs col-sm-3 toc-col" >
+                <div class="toc-wrap">
+                    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#题记"><span class="toc-text">题记</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#正文"><span class="toc-text">正文</span></a></li></ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Sidebar Container -->
+
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+
+                <!-- Friends Blog -->
+                
+            </div>
+        </div>
+
+    </div>
+</article>
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                
+                
+                
+
+                
+
+                
+
+                
+
+                
+
+                </ul>
+                <p class="copyright text-muted">
+                    Copyright &copy; hyxixi 2016 
+                    <br>
+                    <!--Theme by <a href="https://github.com/Kaijun/">Kaijun</a>-->
+                    <!--<span style="display: inline-block; margin: 0 5px;">-->
+                        <!--<i class="fa fa-heart"></i>-->
+                    <!--</span> -->
+                    Theme by <a href="http://ehazon.github.io/">Haojen Ma</a>
+                    <!--<iframe-->
+                        <!--style="margin-left: 2px; margin-bottom:-5px;"-->
+                        <!--frameborder="0" scrolling="0" width="91px" height="20px"-->
+                        <!--src="https://ghbtns.com/github-btn.html?user=kaijun&repo=hexo-theme-huxblog&type=star&count=true" >-->
+                    <!--</iframe>-->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/blog.js"></script>
+
+
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+<!-- jquery.tagcloud.js -->
+<script>
+    // only load tagcloud.js in tag.html
+    if($('#tag_cloud').length !== 0){
+        async("http://yoursite.com/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                //size: {start: 1, end: 1, unit: 'em'},
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+<!--fastClick.js -->
+<script>
+    async("http://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+<!-- Google Analytics -->
+
+
+
+
+<!-- Baidu Tongji -->
+
+
+<!-- Side Catalog -->
+
+
+    <!--wechat title img-->
+    <img class="wechat-title-img" src="undefined">
+</body>
+
+</html>
