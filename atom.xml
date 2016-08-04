@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-08-03T11:11:41.452Z</updated>
+  <updated>2016-08-04T03:38:49.846Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>中华瑰宝</title>
+    <link href="http://yoursite.com/2016/08/04/%E4%B8%AD%E5%8D%8E%E7%91%B0%E5%AE%9D/"/>
+    <id>http://yoursite.com/2016/08/04/中华瑰宝/</id>
+    <published>2016-08-04T03:38:49.000Z</published>
+    <updated>2016-08-04T03:38:49.846Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>空间句法笔记（1）</title>
@@ -34,11 +48,10 @@
     <link href="http://yoursite.com/2016/08/01/%E4%BF%AE%E6%94%B9%E6%B3%A8%E5%86%8C%E8%A1%A8/"/>
     <id>http://yoursite.com/2016/08/01/修改注册表/</id>
     <published>2016-08-01T00:50:33.743Z</published>
-    <updated>2016-08-04T02:56:37.049Z</updated>
+    <updated>2016-08-04T03:09:37.696Z</updated>
     
     <content type="html"><![CDATA[<p>date: 2016-08-01 08:50:33</p>
 <hr>
-<p>header-img: sunshine.png</p>
 <p>首先，在“C:\Windows”目录下找到regedit.exe程序，运行。</p>
 <p>1、单击“开始”，最上方是你的用户名，例如我的是“mf”。</p>
 <p>2、在注册表中，定位到任意你想要修改权限的项，右键单击它，选择权限。</p>
@@ -60,9 +73,9 @@
     
       &lt;p&gt;date: 2016-08-01 08:50:33&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;header-img: sunshine.png&lt;/p&gt;
 &lt;p&gt;首先，在“C:\Windows”目录下找到regedit.exe程序，运行。&lt;/p&gt;
-&lt;p&gt;1、单击“开始”，最上方是你的用户名，例如
+&lt;p&gt;1、单击“开始”，最上方是你的用户名，例如我的是“mf”。&lt;/p&gt;
+&lt;p&gt;2、在注册表中，定位到任意你想要
     
     </summary>
     
