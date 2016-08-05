@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hyxixi.github.io/"/>
-  <updated>2016-08-05T11:50:28.150Z</updated>
+  <updated>2016-08-05T11:52:59.976Z</updated>
   <id>http://hyxixi.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://hyxixi.github.io/2016/08/03/%E7%A9%BA%E9%97%B4%E5%8F%A5%E6%B3%95%E7%AC%94%E8%AE%B0%EF%BC%881%EF%BC%89/"/>
     <id>http://hyxixi.github.io/2016/08/03/空间句法笔记（1）/</id>
     <published>2016-08-03T11:11:41.451Z</published>
-    <updated>2016-08-05T11:50:28.150Z</updated>
+    <updated>2016-08-05T11:52:59.976Z</updated>
     
     <content type="html"><![CDATA[<h3 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h3><p>　　空间句法将空间之间的相互联系抽象为连接图，再按图论的基本原理，对轴线或特征各自的空间<strong>可达性</strong>进行拓扑分析，最终导出一系列的形态分析变量。</p>
 <ul>
@@ -36,11 +36,11 @@
 <p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/3FHggGEnh*gSL*C09Wx7A3ZvwTAaRH6sUwzdoDUYX3w!/m/dHEBAAAAAAAAnull&amp;bo=5QGuAQAAAAADB2k!&amp;rf=photolist&amp;t=5" alt=""></p>
 <p>　　街道形式的网络也同样可以进行整合度的分析，将每条街画到其他街道的J图，计算从各条街道到所有其他街道要经过的街的数量，然后以得到的整合度值给街道网着色。道路越接近红色，它到其他路线的可达性就越强。同时仅仅由于路线与路线之间的关联关系，更多的人流移动会通过一些可达性强的路线。以这种方式看待空间，必然会得到空间构形能够塑造人流。</p>
 <p><strong>空间句法分析的难点不在于软件操作，而在与数据解读。</strong></p>
-<h3 id="空间句法的分析流程"><a href="#空间句法的分析流程" class="headerlink" title="空间句法的分析流程:"></a>空间句法的分析流程:</h3><p>1）在CAD上对着底图或者修改原有CAD图，绘制好轴线地图或者空间边界地图；</p>
-<p>2）导入depthmap或者axwoman；</p>
-<p>3）对图纸进行相应处理（如检查连接性、link与unlink操作等等，如果有问题在CAD中重新修改再次导入）、分析；</p>
-<p>4）得出各种变量数据；</p>
-<p>5）对数据做出解读。</p>
+<h3 id="空间句法的分析流程"><a href="#空间句法的分析流程" class="headerlink" title="空间句法的分析流程:"></a>空间句法的分析流程:</h3><p>　　1）在CAD上对着底图或者修改原有CAD图，绘制好轴线地图或者空间边界地图；</p>
+<p>　　2）导入depthmap或者axwoman；</p>
+<p>　　3）对图纸进行相应处理（如检查连接性、link与unlink操作等等，如果有问题在CAD中重新修改再次导入）、分析；</p>
+<p>　　4）得出各种变量数据；</p>
+<p>　　5）对数据做出解读。</p>
 <h3 id="相关QQ群："><a href="#相关QQ群：" class="headerlink" title="相关QQ群："></a>相关QQ群：</h3><ul>
 <li>Space Syntax Group o：126320370</li>
 <li>空间句法工程应用研究：344841227</li>
