@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hyxixi.github.io/"/>
-  <updated>2016-08-06T07:52:55.048Z</updated>
+  <updated>2016-08-08T02:56:26.594Z</updated>
   <id>http://hyxixi.github.io/</id>
   
   <author>
@@ -14,6 +14,45 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>空间句法笔记（三）——轴线提取</title>
+    <link href="http://hyxixi.github.io/2016/08/08/%E7%A9%BA%E9%97%B4%E5%8F%A5%E6%B3%95%E7%AC%94%E8%AE%B0%EF%BC%88%E4%B8%89%EF%BC%89%E2%80%94%E2%80%94%E8%BD%B4%E7%BA%BF%E6%8F%90%E5%8F%96/"/>
+    <id>http://hyxixi.github.io/2016/08/08/空间句法笔记（三）——轴线提取/</id>
+    <published>2016-08-08T02:09:51.329Z</published>
+    <updated>2016-08-08T02:56:26.594Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="1、轴线法"><a href="#1、轴线法" class="headerlink" title="1、轴线法"></a>1、轴线法</h3><p>　　对于建筑或者比较密集的建筑群体，一般采用轴线法。空间句法规定，<strong>用最少且最长的轴线覆盖整个空间系统</strong>，并且穿越每个凸状空间，然后把每条轴线当作一个节点，根据它们之间的交接关系，便可转化为前述关系图解，并计算和分析各种空间句法变量，最后用深浅不同的颜色表示每条轴线句法变量的高低。</p>
+<p><img src="http://a4.qpic.cn/psb?/V136Ncz646MPKG/RBPcKlqoWpX.PngvZHkh1uKZszPVtt36pimUROUYT1Q!/m/dAsBAAAAAAAAnull&amp;bo=uAMgAQAAAAADB7g!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h3 id="2、河流的简单轴线绘制"><a href="#2、河流的简单轴线绘制" class="headerlink" title="2、河流的简单轴线绘制"></a>2、河流的简单轴线绘制</h3><p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/UidgoRXtC5ggMeQyY8qa1nzWXYF9byNrTu2tVUPMa8g!/m/dHEBAAAAAAAAnull&amp;bo=iQKbAAAAAAADBzI!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h3 id="3、街道的轴线绘制：先填充街道后提取轴线"><a href="#3、街道的轴线绘制：先填充街道后提取轴线" class="headerlink" title="3、街道的轴线绘制：先填充街道后提取轴线"></a>3、街道的轴线绘制：先填充街道后提取轴线</h3><p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/*3PsQLEZPydOMRovGYiQvB5Fr7BQBdnJcDpaw48woog!/m/dHEBAAAAAAAAnull&amp;bo=pQKzAAAAAAADBzY!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h3 id="4、密集建筑群体的轴线绘制"><a href="#4、密集建筑群体的轴线绘制" class="headerlink" title="4、密集建筑群体的轴线绘制"></a>4、密集建筑群体的轴线绘制</h3><p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/HzKETKHM8uGIi2PbAVDVn5HUiWS5YoARqI6o8OhK9Qw!/m/dHEBAAAAAAAAnull&amp;bo=0AJiAQAAAAADB5M!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h5 id="4-1-将最长、最明显的几条轴线绘制出来"><a href="#4-1-将最长、最明显的几条轴线绘制出来" class="headerlink" title="4.1 将最长、最明显的几条轴线绘制出来"></a>4.1 将最长、最明显的几条轴线绘制出来</h5><p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/IW4c5zL4WSbci76p*.GQOsfXRU6vzM0nx0Y7wOG5XpU!/m/dOUAAAAAAAAAnull&amp;bo=JQN1AQAAAAADB3A!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h5 id="4-2-每条轴线当作一个节点，根据它们之间的交接关系，绘制出其他轴线，尽量覆盖所有空隙。"><a href="#4-2-每条轴线当作一个节点，根据它们之间的交接关系，绘制出其他轴线，尽量覆盖所有空隙。" class="headerlink" title="4.2 每条轴线当作一个节点，根据它们之间的交接关系，绘制出其他轴线，尽量覆盖所有空隙。"></a>4.2 每条轴线当作一个节点，根据它们之间的交接关系，绘制出其他轴线，尽量覆盖所有空隙。</h5><p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/9a.*AiZQYdxGC9SX*Q*s4YqAlH6PshFfgPE6YyKyuJ8!/m/dHEBAAAAAAAAnull&amp;bo=DgNuAQAAAAADB0A!&amp;rf=photolist&amp;t=5" alt=""></p>
+<p><img src="http://a1.qpic.cn/psb?/V136Ncz646MPKG/wLX575IOvsUkdx567O2ibaHF18VZx2DDnPknMKMdQCo!/m/dAwBAAAAAAAAnull&amp;bo=AgOQAQAAAAADB7I!&amp;rf=photolist&amp;t=5" alt=""></p>
+<p><img src="http://a4.qpic.cn/psb?/V136Ncz646MPKG/7.gA3E8muR4ZySU4hThvXv2ZIXfDWqcJPgaLy1rE1tA!/m/dI8AAAAAAAAAnull&amp;bo=DAOWAQAAAAADB7o!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h5 id="4-3-轴线模型模型制作完成"><a href="#4-3-轴线模型模型制作完成" class="headerlink" title="4.3 轴线模型模型制作完成"></a>4.3 轴线模型模型制作完成</h5><p><img src="http://a3.qpic.cn/psb?/V136Ncz646MPKG/cgqKRLr5evqppFHsoQtzYzkF1Olzg1fRb4O3PDk6RNI!/m/dHIBAAAAAAAAnull&amp;bo=AQOpAQAAAAADB4g!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h5 id="4-4-为轴线命名，并画出它的连接关系图"><a href="#4-4-为轴线命名，并画出它的连接关系图" class="headerlink" title="4.4 为轴线命名，并画出它的连接关系图"></a>4.4 为轴线命名，并画出它的连接关系图</h5><p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/*NH0nWWTNtBQrv8LWs7n4bNot3UMIyKrSdezfd3OJHU!/m/dA0BAAAAAAAAnull&amp;bo=8QNKAQAAAAADB5s!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h5 id="4-5-以不同的中心进行空间重映射，画出J图"><a href="#4-5-以不同的中心进行空间重映射，画出J图" class="headerlink" title="4.5 以不同的中心进行空间重映射，画出J图"></a>4.5 以不同的中心进行空间重映射，画出J图</h5><p>　　把空间系统的 GPS 坐标的信息丢掉，只考察其拓扑学意义上的连接关系的话，可以把 拓扑图重绘成许多种状态，称为“<strong>空间重映射</strong>”。</p>
+<p>　　习惯上，把空间重映射之后，最下边的这个元素，称为中心（也有的英文文献里面，把最下面的这个空间称为“root”），例如“以 k 为中心进行空间重映射”。</p>
+<p>　　针对同样一个空间系统，以不同的元素为中心，分别进行空间重映射的话，得到的拓扑图是不同的。也就是说，从不同的元素眼中看出去，看到的是不同的空间结构。</p>
+<p><img src="http://a1.qpic.cn/psb?/V136Ncz646MPKG/gRzgEuHQp.8v23qC*z3PB*NZQG7J64XhLmGUgHK*Mpg!/m/dAwBAAAAAAAAnull&amp;bo=IAN.AQAAAAADB34!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h5 id="4-6-对不同的J图计算“平均深度（MD）”"><a href="#4-6-对不同的J图计算“平均深度（MD）”" class="headerlink" title="4.6 对不同的J图计算“平均深度（MD）”"></a>4.6 对不同的J图计算“平均深度（MD）”</h5><p><strong>平均深度</strong>=全局拓扑深度÷（总节点数-1）</p>
+<p><strong>全局拓扑深度</strong>：在空间重映射以后，从中心 空间出发，到系统当中任意一个其他元素的最短的拓扑步数的总和。</p>
+<p><img src="http://a1.qpic.cn/psb?/V136Ncz646MPKG/tInYbiVfJxoFKu4Ri*znOuzDzrJV0eqM1uV1VnHB7Iw!/m/dHABAAAAAAAAnull&amp;bo=ewPeAQAAAAADB4U!&amp;rf=photolist&amp;t=5" alt=""></p>
+<h5 id="4-7-显然，由g为中心到其他地方的可达性更高"><a href="#4-7-显然，由g为中心到其他地方的可达性更高" class="headerlink" title="4.7 显然，由g为中心到其他地方的可达性更高"></a>4.7 显然，由g为中心到其他地方的可达性更高</h5><p><img src="http://a1.qpic.cn/psb?/V136Ncz646MPKG/q8VCRFvClR2lrVLkebltXKL9VEuqel9.1n.2999QOHM!/m/dOQAAAAAAAAAnull&amp;bo=NAJOAQAAAAADB1s!&amp;rf=photolist&amp;t=5" alt=""></p>
+<p><img src="http://a2.qpic.cn/psb?/V136Ncz646MPKG/4GIzweKKHz347YqhLXz4JZlhHbatewVRx2tpH091UvY!/m/dH0BAAAAAAAAnull&amp;bo=CwJgAQAAAAADB0o!&amp;rf=photolist&amp;t=5" alt=""></p>
+<p><img src="http://a4.qpic.cn/psb?/V136Ncz646MPKG/v26D8enjoGe1ps7IHhlUTPDjdSIdubhDQng4vCu5Nmk!/m/dAsBAAAAAAAAnull&amp;bo=gAPNAQAAAAADB20!&amp;rf=photolist&amp;t=5" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;1、轴线法&quot;&gt;&lt;a href=&quot;#1、轴线法&quot; class=&quot;headerlink&quot; title=&quot;1、轴线法&quot;&gt;&lt;/a&gt;1、轴线法&lt;/h3&gt;&lt;p&gt;　　对于建筑或者比较密集的建筑群体，一般采用轴线法。空间句法规定，&lt;strong&gt;用最少且最长的轴线覆盖整个空间系统
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>空间句法笔记（二）——学习渠道</title>
