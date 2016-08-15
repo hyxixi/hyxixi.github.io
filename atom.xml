@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://hyxixi.github.io/"/>
-  <updated>2016-08-08T02:56:26.594Z</updated>
+  <updated>2016-08-15T08:02:42.888Z</updated>
   <id>http://hyxixi.github.io/</id>
   
   <author>
@@ -14,6 +14,100 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>空间句法笔记（四）——AutoCAD 2010</title>
+    <link href="http://hyxixi.github.io/2016/08/11/%E7%A9%BA%E9%97%B4%E5%8F%A5%E6%B3%95%E7%AC%94%E8%AE%B0%EF%BC%88%E5%9B%9B%EF%BC%89/"/>
+    <id>http://hyxixi.github.io/2016/08/11/空间句法笔记（四）/</id>
+    <published>2016-08-11T09:22:49.247Z</published>
+    <updated>2016-08-15T08:02:42.888Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="AutoCAD"><a href="#AutoCAD" class="headerlink" title="AutoCAD"></a>AutoCAD</h3><p>　　AutoCAD（Autodesk Computer Aided Design）是Autodesk（欧特克）公司首次于1982年开发的自动计算机辅助设计软件，<strong>用于二维绘图、详细绘制、设计文档和基本三维设计</strong>，现已经成为国际上广为流行的绘图工具。AutoCAD具有良好的用户界面，通过交互菜单或命令行方式便可以进行各种操作。它的多文档设计环境，让非计算机专业人员也能很快地学会使用。在不断实践的过程中更好地掌握它的各种应用和开发技巧，从而不断提高工作效率。AutoCAD具有广泛的适应性，它可以在各种操作系统支持的微型计算机和工作站上运行。</p>
+<h3 id="应用领域"><a href="#应用领域" class="headerlink" title="应用领域"></a>应用领域</h3><ul>
+<li>工程制图：建筑工程、装饰设计、环境艺术设计、水电工程、土木施工等等。</li>
+<li>工业制图：精密零件、模具、设备等。</li>
+<li>服装加工：服装制版。</li>
+<li>电子工业：印刷电路板设计。</li>
+</ul>
+<p>　　广泛应用于土木建筑、装饰装潢、城市规划、园林设计、电子电路、机械设计、服装鞋帽、航空航天、轻工化工等诸多领域。</p>
+<h3 id="应用案例"><a href="#应用案例" class="headerlink" title="应用案例"></a>应用案例</h3><ul>
+<li>机械零件</li>
+</ul>
+<p>　　1、托架</p>
+<p>　　　平面视图</p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/1.PNG" alt=""></p>
+<p>　　　三维视图</p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/2.PNG" alt=""></p>
+<p>　　　渲染图</p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/3.PNG" alt=""></p>
+<p>　　2、阀体</p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/4.PNG" alt=""></p>
+<p>　　3、支架</p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/5.PNG" alt=""></p>
+<ul>
+<li>二维艺术</li>
+</ul>
+<p>　　1、骷髅头</p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/7.PNG" alt=""></p>
+<p>　　2、少女</p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/8.PNG" alt=""></p>
+<ul>
+<li>服装案例</li>
+</ul>
+<p><img src="http://obxj17bru.bkt.clouddn.com/6.PNG" alt=""></p>
+<ul>
+<li>产品设计——瓢</li>
+</ul>
+<p><img src="http://obxj17bru.bkt.clouddn.com/10.PNG" alt=""></p>
+<h3 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h3><p><a href="http://obxj17bru.bkt.clouddn.com/autocad2010%E6%9C%80%E5%AE%9E%E7%94%A8%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%85%A8%E9%9B%86.docx" target="_blank" rel="external">更多快捷键，点这里</a></p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/11.PNG" alt=""></p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/12.PNG" alt=""></p>
+<p><img src="http://obxj17bru.bkt.clouddn.com/13.PNG" alt=""></p>
+<h3 id="文件操作"><a href="#文件操作" class="headerlink" title="文件操作"></a>文件操作</h3><p>1）新建</p>
+<ul>
+<li><p>菜单式：文件-&gt;新建</p>
+</li>
+<li><p>菜单按钮式：文件上方的第一个图标</p>
+</li>
+<li><p>命令式：在命令栏输入new</p>
+</li>
+</ul>
+<p>区别：菜单按钮式新建文件使用默认acsdiso.dwt样板，而菜单式和命令式则会弹出“选择样板”对话框，当然你也可以选择打开-&gt;无样板打开-公制。</p>
+<p>2）保存加密</p>
+<p>　　另存为（或输入命令save）-&gt;工具-&gt;安全选项</p>
+<p>3）图形单位</p>
+<p>设置：单位、角度、角度测量、角度方向、区域（即页面大小）</p>
+<p>打开方式：</p>
+<ol>
+<li>格式-&gt;单位</li>
+<li>快捷键：units</li>
+<li>输入命令：startup+回车+1+回车+filedia+回车+1+回车，新建时会自动弹出该对话框，关闭方法是startup（或filedia）+回车+0+回车。</li>
+</ol>
+<p>4）图形界限：</p>
+<ol>
+<li>格式-&gt;图形界限（或命令：limits），然后在命令栏输入坐标</li>
+<li>再执行一次命令，输入on</li>
+<li>单击界面最底层的类似格网的“栅格显示”图标，转为栅格格式</li>
+<li>右击“栅格显示”图标-&gt;设置，勾除“显示超出界限的栅格”</li>
+</ol>
+<p>5）系统选项</p>
+<p>设置：显示-颜色、显示-十字光标大小、用户系统配置-线宽设置、用户系统配置-自定义右键单击</p>
+<p>打开方式：</p>
+<ol>
+<li>工具-&gt;选项</li>
+<li>快捷键：op或config</li>
+<li>左上角的开始按钮-&gt;选项</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;AutoCAD&quot;&gt;&lt;a href=&quot;#AutoCAD&quot; class=&quot;headerlink&quot; title=&quot;AutoCAD&quot;&gt;&lt;/a&gt;AutoCAD&lt;/h3&gt;&lt;p&gt;　　AutoCAD（Autodesk Computer Aided Design）是Autodesk
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>空间句法笔记（三）——轴线提取</title>
